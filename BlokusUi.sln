@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlokusUi", "BlokusUi\BlokusUi.csproj", "{726CC027-B81E-4643-80D9-103132111E01}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MoveGenerator", "MoveGenerator\MoveGenerator.fsproj", "{E678E6E7-093F-4A47-AD46-B4988FEA9E13}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Move", "MoveGenerator\Move.fsproj", "{E678E6E7-093F-4A47-AD46-B4988FEA9E13}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GameElements", "FsharpClasses\GameElements.fsproj", "{5BAB819B-234D-4C67-81AA-2F14D000B6B8}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "GameElements", "FsharpClasses\GameElements.fsproj", "{5BAB819B-234D-4C67-81AA-2F14D000B6B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

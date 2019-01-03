@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="GameElements.fs" />
+    <Compile Include="Game.fs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -13,8 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FsharpClasses\GameElements.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Update="FSharp.Core" Version="4.5.4" />
-    <PackageReference Update="System.ValueTuple" Version="4.5.0" />
   </ItemGroup>
 
 </Project>
